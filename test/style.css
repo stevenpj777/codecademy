@@ -1,0 +1,65 @@
+.container {
+  background-color: lightgray;
+  width: 600px;
+  margin 0 auto;
+  display: flex;
+  border: 5px solid red;
+}
+
+.first {
+  /*need to add turn this into a flex BEFFORE
+  it will center*/
+  display: flex;
+  background-color: blue;
+  flex:1;
+  border: 10px dotted green;
+  justify-content: center;
+
+
+
+
+}
+.second {
+  background-color: ;
+flex:1;
+display: flex;
+flex-direction: row;
+
+/* justify-content: space-between; */
+}
+
+.second-a {
+  background-color: yellow;
+  flex: 1;
+  text-align: center;
+  border: 2px solid black;
+  justify-content: space-between;
+
+}
+
+.second-b {
+  background-color: pink;
+  flex: 1;
+
+}
+
+
+.stories {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.story {
+  /* border: 2px solid blue; */
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+.test{
+  background-color: gray;
+}
